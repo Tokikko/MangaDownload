@@ -1,0 +1,18 @@
+﻿<Window x:Class="MangaDownload.SelectedManga"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SelectedManga" Height="367" Width="389.75">
+    <Grid x:Name="labelMangaTitle">
+        <Label Content="Label" HorizontalAlignment="Center"  Margin="239,10,91,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="listBoxMangaChapters" HorizontalAlignment="Left" Height="233" Margin="147,36,0,0" VerticalAlignment="Top" Width="221" MouseDoubleClick="listBoxMangaChapters_MouseDoubleClick"/>
+        <Button x:Name="btnSelectChapter" Content="Download All" HorizontalAlignment="Left" Margin="10,249,0,0" VerticalAlignment="Top" Width="99" Click="btnSelectChapter_Click"/>
+        <Button x:Name="btnFolderPath" Content="Save folder" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Width="99" Click="btnFolderPath_Click"/>
+        <TextBox x:Name="txtBoxChapterFrom" HorizontalAlignment="Left" Height="23" Margin="56,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="53"/>
+        <Label Content="From:" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="t" Content="To:" HorizontalAlignment="Left" Margin="10,125,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtBoxChapterTo" HorizontalAlignment="Left" Height="23" Margin="56,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="53"/>
+        <Button x:Name="btnDownloadSelected" Content="Download" HorizontalAlignment="Left" Margin="10,193,0,0" VerticalAlignment="Top" Width="99" Click="btnDownloadSelected_Click"/>
+        <ProgressBar x:Name="progressBarDownload" HorizontalAlignment="Left" Height="38" Margin="79,285,0,0" VerticalAlignment="Top" Width="198"/>
+
+    </Grid>
+</Window>

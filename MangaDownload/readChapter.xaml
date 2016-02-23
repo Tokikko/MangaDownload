@@ -1,0 +1,14 @@
+﻿<Window x:Class="MangaDownload.readChapter"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="readChapter" Height="899.366" Width="952.238">
+    <Grid>
+        <Image x:Name="imgChapter" HorizontalAlignment="Center" Height="712" Margin="0,0,0,0" VerticalAlignment="Center" Width="823" Stretch="Fill"/>
+        <TextBox x:Name="txtBoxCurrentPage" HorizontalAlignment="Left" Height="23" Margin="408,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" MouseEnter="txtBoxCurrentPage_MouseEnter"/>
+        <TextBox x:Name="txtBoxNumberOfPages" HorizontalAlignment="Left" Height="23" Margin="509,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81"/>
+        <Button x:Name="btnBackward" Content="Backward" HorizontalAlignment="Left" Margin="188,23,0,0" VerticalAlignment="Top" Width="103" Height="23" Click="btnBackward_Click"/>
+        <Button x:Name="btnForward" Content="Forward" HorizontalAlignment="Left" Margin="641,23,0,0" VerticalAlignment="Top" Width="103" Height="23" Click="btnForward_Click"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="977,206,-133,0" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Window>
